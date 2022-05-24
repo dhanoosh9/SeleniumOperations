@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import easy.website.BaseClass;
 
 public class WebTable extends BaseClass{
 	

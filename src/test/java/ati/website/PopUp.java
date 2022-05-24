@@ -3,7 +3,7 @@ package ati.website;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-import easy.website.BaseClass;
+
 
 public class PopUp extends BaseClass {
 	

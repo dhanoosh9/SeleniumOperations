@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mousehover.MouseHover3">
+      <class name="ati.website.DropDown">
         <methods>
-          <include name="mousehover3"/>
+          <include name="dropdown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- mousehover.MouseHover3 -->
+      </class> <!-- ati.website.DropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

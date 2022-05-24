@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class DatePickerJQ extends BaseClass {
@@ -18,8 +17,7 @@ public class DatePickerJQ extends BaseClass {
 		Thread.sleep(3000);
 		String month = "Feb";
 		String year = "2020";
-//		Select select = new Select(driver.findElement(By.cssSelector("select[data-handler='selectMonth']")));
-//		select.selectByValue(month);
+
 		driver.findElement(By.cssSelector("select[data-handler='selectMonth']")).click();
 		List<WebElement> options = driver.findElements(By.xpath("//*[@id='ui-datepicker-div']//select/option"));
 
