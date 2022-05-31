@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ati.website.DropDown">
+      <class name="tasks.DropDownValidation">
         <methods>
-          <include name="dropdown"/>
+          <include name="dropDown"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- ati.website.DropDown -->
+      </class> <!-- tasks.DropDownValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

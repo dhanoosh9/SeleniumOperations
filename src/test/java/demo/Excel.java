@@ -20,7 +20,7 @@ public class Excel {
 	public static XSSFCell cell;
 	
 	public static int getRowCount(String xlfile, String xlsheet) throws IOException {
-		fi =new FileInputStream(xlfile);
+		fi = new FileInputStream(xlfile);
 		wb = new XSSFWorkbook(xlsheet);
 		ws = wb.getSheet(xlsheet);
 		int rowcount = ws.getLastRowNum();
@@ -41,11 +41,11 @@ public class Excel {
 	}
 	
 	public static String getCellData(String xlfile, String xlsheet, int rownum, int cellnum) throws IOException {
-		fi = new FileInputStream(xlfile);
-		wb = new XSSFWorkbook(xlsheet);
-		ws = wb.getSheet(xlsheet);
-		row = ws.createRow(rownum);
-		cell = row.getCell(cellnum);
+		fi=new FileInputStream(xlfile);
+		wb=new XSSFWorkbook(fi);
+		ws=wb.getSheet(xlsheet);
+		row=ws.getRow(rownum);
+		cell=row.getCell(cellnum);
 		String data;
 		try {
 			DataFormatter formatter = new DataFormatter();
@@ -58,26 +58,26 @@ public class Excel {
 		return data;
 	}
 	
-	public void writeExcel(String sheetName, String cellvalue, int row, int col) throws Exception {
-		  
-		  String excelPath=System.getProperty("user.dir")+"/Data/ExampleData.xlsx";
-		  
-		  File file= new File(excelPath);
-		  
-		  FileInputStream fis= new FileInputStream(file);
-		  
-		  XSSFWorkbook wb= new XSSFWorkbook(fis);
-		  
-		  XSSFSheet sheet= wb.getSheet(sheetName);
-		  sheet.createRow(0);
-		  sheet.getRow(row).createCell(col).setCellValue(cellvalue);
-		  
-		  FileOutputStream fos= new FileOutputStream(new File(excelPath));
-		  
-		  wb.write(fos);
-		  
-		  wb.close();
-		  
-		  fos.close();
-	}
+//	public void writeExcel(String sheetName, String cellvalue, int row, int col) throws Exception {
+//		  
+//		  String excelPath=System.getProperty("user.dir")+"/Data/ExampleData.xlsx";
+//		  
+//		  File file= new File(excelPath);
+//		  
+//		  FileInputStream fis= new FileInputStream(file);
+//		  
+//		  XSSFWorkbook wb= new XSSFWorkbook(fis);
+//		  
+//		  XSSFSheet sheet= wb.getSheet(sheetName);
+//		  sheet.createRow(0);
+//		  sheet.getRow(row).createCell(col).setCellValue(cellvalue);
+//		  
+//		  FileOutputStream fos= new FileOutputStream(new File(excelPath));
+//		  
+//		  wb.write(fos);
+//		  
+//		  wb.close();
+//		  
+//		  fos.close();
+//	}
 }

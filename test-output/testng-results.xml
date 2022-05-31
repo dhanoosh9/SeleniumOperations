@@ -1,25 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31502" started-at="2022-05-24T19:30:19 IST" finished-at="2022-05-24T19:30:51 IST">
+  <suite name="Default suite" duration-ms="121" started-at="2022-05-27T18:27:39 IST" finished-at="2022-05-27T18:27:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31502" started-at="2022-05-24T19:30:19 IST" finished-at="2022-05-24T19:30:51 IST">
-      <class name="ati.website.RadioButton">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:ati.website.RadioButton@6d3af739]" name="setUp" is-config="true" duration-ms="26931" started-at="2022-05-24T19:30:19 IST" finished-at="2022-05-24T19:30:46 IST">
+    <test name="Default test" duration-ms="121" started-at="2022-05-27T18:27:39 IST" finished-at="2022-05-27T18:27:39 IST">
+      <class name="demo.DataProviderExample">
+        <test-method status="PASS" signature="myLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.DataProviderExample@4d1b0d2a]" name="myLoginTest" duration-ms="11" started-at="2022-05-27T18:27:39 IST" data-provider="testData" finished-at="2022-05-27T18:27:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="radiobutton()[pri:0, instance:ati.website.RadioButton@6d3af739]" name="radiobutton" duration-ms="3222" started-at="2022-05-24T19:30:46 IST" finished-at="2022-05-24T19:30:49 IST">
+        </test-method> <!-- myLoginTest -->
+        <test-method status="PASS" signature="myLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.DataProviderExample@4d1b0d2a]" name="myLoginTest" duration-ms="2" started-at="2022-05-27T18:27:39 IST" data-provider="testData" finished-at="2022-05-27T18:27:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- radiobutton -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ati.website.RadioButton@6d3af739]" name="tearDown" is-config="true" duration-ms="1294" started-at="2022-05-24T19:30:49 IST" finished-at="2022-05-24T19:30:51 IST">
+        </test-method> <!-- myLoginTest -->
+        <test-method status="PASS" signature="myLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.DataProviderExample@4d1b0d2a]" name="myLoginTest" duration-ms="4" started-at="2022-05-27T18:27:39 IST" data-provider="testData" finished-at="2022-05-27T18:27:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ati.website.RadioButton -->
+        </test-method> <!-- myLoginTest -->
+      </class> <!-- demo.DataProviderExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
