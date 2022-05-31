@@ -2,75 +2,68 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="121" started-at="2022-05-27T18:27:39 IST" finished-at="2022-05-27T18:27:39 IST">
+  <suite name="Default suite" duration-ms="53509" started-at="2022-05-31T16:28:38 IST" finished-at="2022-05-31T16:29:31 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="121" started-at="2022-05-27T18:27:39 IST" finished-at="2022-05-27T18:27:39 IST">
-      <class name="demo.DataProviderExample">
-        <test-method status="PASS" signature="myLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.DataProviderExample@4d1b0d2a]" name="myLoginTest" duration-ms="11" started-at="2022-05-27T18:27:39 IST" data-provider="testData" finished-at="2022-05-27T18:27:39 IST">
+    <test name="Default test" duration-ms="53509" started-at="2022-05-31T16:28:38 IST" finished-at="2022-05-31T16:29:31 IST">
+      <class name="testng.DataProvider2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.DataProvider2@4f51b3e0]" name="setUp" is-config="true" duration-ms="13081" started-at="2022-05-31T16:28:38 IST" finished-at="2022-05-31T16:28:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProvider2@4f51b3e0]" name="loginDDT" duration-ms="12575" started-at="2022-05-31T16:28:53 IST" data-provider="Logindata" finished-at="2022-05-31T16:29:05 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin1]]>
+                <![CDATA[wexom38833@ishop2k.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test@gmail.com]]>
+                <![CDATA[test123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myLoginTest -->
-        <test-method status="PASS" signature="myLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.DataProviderExample@4d1b0d2a]" name="myLoginTest" duration-ms="2" started-at="2022-05-27T18:27:39 IST" data-provider="testData" finished-at="2022-05-27T18:27:39 IST">
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProvider2@4f51b3e0]" name="loginDDT" duration-ms="7652" started-at="2022-05-31T16:29:05 IST" data-provider="Logindata" finished-at="2022-05-31T16:29:13 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin2]]>
+                <![CDATA[testers123@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test@gmail.com]]>
+                <![CDATA[test123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myLoginTest -->
-        <test-method status="PASS" signature="myLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.DataProviderExample@4d1b0d2a]" name="myLoginTest" duration-ms="4" started-at="2022-05-27T18:27:39 IST" data-provider="testData" finished-at="2022-05-27T18:27:39 IST">
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProvider2@4f51b3e0]" name="loginDDT" duration-ms="17610" started-at="2022-05-31T16:29:13 IST" data-provider="Logindata" finished-at="2022-05-31T16:29:31 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin3]]>
+                <![CDATA[testers1234@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test@gmail.com]]>
+                <![CDATA[test123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- myLoginTest -->
-      </class> <!-- demo.DataProviderExample -->
+        </test-method> <!-- loginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.DataProvider2@4f51b3e0]" name="tearDown" is-config="true" duration-ms="756" started-at="2022-05-31T16:29:31 IST" finished-at="2022-05-31T16:29:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.DataProvider2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

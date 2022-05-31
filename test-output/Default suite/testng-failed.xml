@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tasks.DropDownValidation">
+      <class name="demo.LoginPageDDT">
         <methods>
-          <include name="dropDown"/>
+          <include name="signintestddt"/>
           <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tasks.DropDownValidation -->
+      </class> <!-- demo.LoginPageDDT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
