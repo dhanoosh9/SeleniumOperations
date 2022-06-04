@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ATISuite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="ati.website.MultipleWindows"/>
+      <class name="ati.website.PopUp"/>
+      <class name="ati.website.SameElementCheckbox"/>
+      <class name="ati.website.DoubleClickAndRightClick"/>
+      <class name="ati.website.RadioButton"/>
+      <class name="ati.website.TextArea"/>
+      <class name="ati.website.DatePicker"/>
+      <class name="ati.website.CheckBox"/>
+      <class name="ati.website.ComboBox"/>
+      <class name="ati.website.TextBox"/>
+      <class name="ati.website.Alerts"/>
+      <class name="ati.website.DropDown"/>
+      <class name="ati.website.WebTable"/>
+      <class name="ati.website.IFrame"/>
+      <class name="ati.website.Waits"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- ATISuite -->

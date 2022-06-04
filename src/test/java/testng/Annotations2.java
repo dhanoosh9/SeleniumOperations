@@ -2,6 +2,7 @@ package testng;
 
 import java.time.Duration;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -33,7 +34,7 @@ public class Annotations2 {
 		driver.findElement(By.id("login-button")).click();
 	}
 	
-	@Test
+	@Test(dependsOnMethods = "loginTest")
 	public void cartTest()
 	{
 		driver.findElement(By.xpath("//button[@data-test='add-to-cart-sauce-labs-backpack']")).click();

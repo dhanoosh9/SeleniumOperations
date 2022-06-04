@@ -6,6 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -13,12 +14,12 @@ public class BaseClass {
 	
 	public static WebDriver driver;
 	ReadConfig readconfig = new ReadConfig();
-	String browserName = readconfig.getbrowser();
+	//String browserName = readconfig.getbrowser();
 	String baseURL = readconfig.geturl();
 	
-	
+	@Parameters("browser")
 	@BeforeClass
-	public void setUp() {
+	public void setUp(String browserName) {
 		
 		switch(browserName) {
 			case "chrome":

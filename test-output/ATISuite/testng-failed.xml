@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ATISuite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="ati.website.DatePicker">
+        <methods>
+          <include name="tearDown"/>
+          <include name="datepicker"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.DatePicker -->
+      <class name="ati.website.Waits">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="waits"/>
+        </methods>
+      </class> <!-- ati.website.Waits -->
+      <class name="ati.website.TextArea">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="textarea"/>
+        </methods>
+      </class> <!-- ati.website.TextArea -->
+      <class name="ati.website.SameElementCheckbox">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="samelementcheckbox"/>
+        </methods>
+      </class> <!-- ati.website.SameElementCheckbox -->
+      <class name="ati.website.IFrame">
+        <methods>
+          <include name="tearDown"/>
+          <include name="iframe"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.IFrame -->
+      <class name="ati.website.DropDown">
+        <methods>
+          <include name="dropdown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.DropDown -->
+      <class name="ati.website.CheckBox">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="checkbox"/>
+        </methods>
+      </class> <!-- ati.website.CheckBox -->
+      <class name="ati.website.WebTable">
+        <methods>
+          <include name="tearDown"/>
+          <include name="webtable"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.WebTable -->
+      <class name="ati.website.DoubleClickAndRightClick">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="doubleclickandrightclick"/>
+        </methods>
+      </class> <!-- ati.website.DoubleClickAndRightClick -->
+      <class name="ati.website.TextBox">
+        <methods>
+          <include name="textbox"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.TextBox -->
+      <class name="ati.website.Alerts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="alerts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.Alerts -->
+      <class name="ati.website.PopUp">
+        <methods>
+          <include name="popup"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.PopUp -->
+      <class name="ati.website.RadioButton">
+        <methods>
+          <include name="radiobutton"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.RadioButton -->
+      <class name="ati.website.MultipleWindows">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="multiplewindow"/>
+        </methods>
+      </class> <!-- ati.website.MultipleWindows -->
+      <class name="ati.website.ComboBox">
+        <methods>
+          <include name="tearDown"/>
+          <include name="combobox"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ati.website.ComboBox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [ATISuite] -->

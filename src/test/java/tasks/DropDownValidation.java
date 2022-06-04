@@ -22,6 +22,7 @@ public class DropDownValidation {
 	
 	WebDriver driver;
 	SoftAssert softassert = new SoftAssert();
+	
 	@BeforeTest
 	public void setUp() {
 		WebDriverManager.chromedriver().setup();
